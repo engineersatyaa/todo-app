@@ -1,0 +1,234 @@
+* {
+    font-weight: bold;
+  }
+  body {
+    background-color: rgba(248, 230, 67, 0.34);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .heading {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  .main,
+  ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #main-form {
+    margin: 1px auto;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
+  #main-form > input {
+    width: 100%;
+    padding: 11px 20px;
+    margin: 16px auto;
+    display: inline-block;
+    border: 2px solid rgb(6, 8, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #main-form > button {
+    width: 40%;
+    background-color: #0db512;
+    color: white;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #main-form > button:hover,
+  ul form button:hover {
+    background-color: #097a0c;
+  }
+  
+  div.filterBtn button {
+    width: 100px;
+    background-color: #ec2a08;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  div.filterBtn button:hover,
+  ul li button:hover {
+    background-color: #b4280f;
+    border: 2px solid black;
+  }
+  
+  div.filterBtn button:focus {
+    background-color: #8f2513;
+  }
+  
+  ul li button {
+    width: 100px;
+    background-color: #ec2a08;
+    color: white;
+    padding: 4px 0px;
+    margin: 0px 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 1px auto;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  li label {
+    width: 50%;
+    margin: 6px auto;
+    padding: 2px;
+    display: inline-block;
+    border: 2px solid rgb(6, 8, 5);
+    border-radius: 4px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
+  li label:hover {
+    background-color: #30d635;
+  }
+  
+  ul form input {
+    width: 50%;
+    padding: 4px;
+    margin: 0px auto 0px 24px;
+    display: inline-block;
+    border: 2px solid rgb(6, 8, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  ul form button {
+    width: 100px;
+    background-color: #0db512;
+    color: white;
+    padding: 4px 0px;
+    margin: 3px 9px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Responsive*/
+  
+  @media only screen and (max-width: 768px) {
+    * {
+      font-weight: 600;
+    }
+  
+    ul {
+      padding: 0px;
+    }
+  
+    #main-form {
+      width: 100%;
+    }
+  
+    #main-form > input {
+      width: 80%;
+    }
+  
+    #main-form > button {
+      width: 40%;
+    }
+  
+    li label {
+      width: 40%;
+    }
+  
+    ul li button {
+      width: 80px;
+      border: 2px solid black;
+    }
+  
+    ul form input {
+      width: 40%;
+      padding: 2px;
+    }
+  
+    ul form button {
+      width: 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 426px) {
+    * {
+      font-size: 15px;
+    }
+  
+    h2 {
+      font-size: 26px;
+      margin: 10px auto;
+    }
+  
+    div.heading h1 {
+      margin: 10px;
+      font-size: xx-large;
+    }
+  
+    #main-form > input {
+      width: 85%;
+      padding: 4px 10px;
+      font-size: 18px;
+    }
+  
+    #main-form > button {
+      width: 85%;
+      padding: 5px 10px;
+    }
+  
+    div.filterBtn {
+      display: flex;
+      margin: 0px auto;
+      width: 86%;
+    }
+  
+    div.filterBtn button {
+      width: 100%;
+      margin: 8px 2px;
+      padding: 7px;
+    }
+  
+    ul form input {
+      width: 80%;
+      margin: 5px;
+      padding: 2px;
+    }
+  
+    ul form button {
+      width: 80px;
+      padding: 2px 0px;
+    }
+  
+    li label {
+      width: 75%;
+      font-size: 19px;
+      padding: 0px;
+    }
+  
+    ul li button {
+      width: 80px;
+      border: 2px solid black;
+      padding: 2px 0px;
+    }
+  }
+  
