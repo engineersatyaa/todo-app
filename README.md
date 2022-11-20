@@ -6,7 +6,7 @@ Responsive Todo App made with React JS and CSS. CRUD and Filter operations can b
  
 ## Author
 
-- [SATYA PAL SINGH aka SAMEER JADAUN](https://www.naukri.com/mnjuser/profile?id=&orgn=homepage)
+- [SATYA PAL SINGH](https://www.naukri.com/mnjuser/profile?id=&orgn=homepage)
 
 
 ## Demo
