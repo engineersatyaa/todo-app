@@ -16,9 +16,7 @@ https://engineersatyaa.github.io/todo-app/
 
 ## Screenshots
 
-![Screenshots](https://github.com/engineersatyaa/todo-app/blob/main/public/todoMd.jpg)
-
-
+![todoApp](https://user-images.githubusercontent.com/112659596/206858003-04135836-6bba-4fd0-bfb1-566d28414c33.jpeg)
 
 
 ## Features
