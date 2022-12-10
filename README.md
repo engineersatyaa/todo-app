@@ -16,7 +16,7 @@ https://engineersatyaa.github.io/todo-app/
 
 ## Screenshots
 
-![Screenshots](https://raw.githubusercontent.com/engineersatyaa/todo-app/main/public/todoMd.jpg)
+![Screenshots](public/todoMd.jpg)
 
 
 
